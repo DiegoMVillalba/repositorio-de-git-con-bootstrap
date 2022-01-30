@@ -3,3 +3,47 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "fuenteBravada" ;
+    src: url(../Fuentes/bravada-arma.ttf);
+}
+#fuente{
+    font-family: "fuenteBravada" sans-serif;
+}
+
+body{
+    font-family: 'fuenteBravada' sans-serif;
+    
+}
+
+nav div a{
+    font-family: 'fuenteBravada' sans-serif;
+}
+
+.main-flex{
+    margin: 10px;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+main div img{
+    height: 60vh;
+    width: 100vw;
+}
+.temporada{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 40px;
+}
+
+.section-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:20px;
+    height:85%;
+    width: 85%;
+}
