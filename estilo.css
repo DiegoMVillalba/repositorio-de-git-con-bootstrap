@@ -14,8 +14,9 @@ body{
     height: 100%;
     
 }
-.fuente{
-    font-family: 'fuenteBravada', sans-serif ;
+#carouselExampleControls{
+    height:100vh;
+    width: 100vw;
 }
 
 
@@ -30,9 +31,9 @@ div div img{
     padding: 20px;
     height: 100vh;
     width: 100vw;
-}
+} 
 
-main div img{
+ main div img{
     height: 60vh;
     width: 100vw;
 }
@@ -54,8 +55,10 @@ main div img{
 section div img{
     height: 400px;
     width: 400px;
+    border:solid #800004 1px;
     
 }
+
 
 
 
