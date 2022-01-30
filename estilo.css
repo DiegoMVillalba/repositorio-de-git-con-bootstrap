@@ -5,19 +5,24 @@
 }
 @font-face {
     font-family: "fuenteBravada" ;
-    src: url(../Fuentes/bravada-arma.ttf);
+    src: url(./Fuentes/bravada-arma.ttf);
 }
-#fuente{
-    font-family: "fuenteBravada" sans-serif;
-}
+
 
 body{
-    font-family: 'fuenteBravada' sans-serif;
+    font-family: 'fuenteBravada', sans-serif ;
+    height: 100%;
     
 }
+.fuente{
+    font-family: 'fuenteBravada', sans-serif ;
+}
 
-nav div a{
-    font-family: 'fuenteBravada' sans-serif;
+
+
+div div img{
+    height: 700px;
+    width: 500px;
 }
 
 .main-flex{
@@ -34,16 +39,44 @@ main div img{
 .temporada{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 3px;
     margin: 40px;
 }
 
 .section-flex{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding:20px;
-    height:85%;
-    width: 85%;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between; 
+    padding: 50px; 
 }
+
+section div img{
+    height: 400px;
+    width: 400px;
+    
+}
+
+
+
+footer{
+    background-color:#800004;
+    color:black;
+    text-align: center;
+    width: 100%;
+    padding: 25px ;
+    position:relative;
+    bottom: 0;
+    border-top:solid black 1px;
+    font-family: 'fuenteBravada', sans-serif ;
+}
+
+footer li{
+    display: inline-block;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: center;   
+}
+
