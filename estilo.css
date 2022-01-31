@@ -42,6 +42,7 @@ header h1{
  } 
 
 
+
  main{
     background-color:rgb(255, 255, 255); 
     color:#000000 ;
@@ -82,6 +83,7 @@ main div img{
 
 .quienesSomos-flex{
     font-size: 30px;
+
 }
 
 
@@ -92,7 +94,6 @@ footer{
     width: 100%;
     padding:20px ;
     position:relative;
-    
     border-top:solid black 1px;
     font-family: 'fuenteBravada', sans-serif ;
 }
@@ -108,4 +109,31 @@ footer li{
     background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
       
 }
+
+/* mobile first */
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    main{
+        height: 100%;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width:481px) and (max-width:1023px) {
+    main{
+        height: 100%;
+    }
+
+    .quienesSomos-flex{
+        height: 100vh;
+    }
+    .contacto-flex{
+        height: 100vh;
+    }
+
+
+}
+
+
 
